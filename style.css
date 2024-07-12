@@ -1,0 +1,25 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+
+
+
+.caja{ 
+  display: none;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.cuerpo{
+    border: solid 1px black;
+    height: auto;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
