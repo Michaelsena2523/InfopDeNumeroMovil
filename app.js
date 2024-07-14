@@ -34,13 +34,13 @@ function evaluar(numero) {
 
 
   function inforesultado(info) {
-   numero.textContent =" Status de numero: "+ JSON.stringify(info.phone);
+   numero.innerHTML = '<i class="fa-solid fa-phone"></i> este es el numero telefono'+ JSON.stringify(info.phone);
    validar.textContent ="Status de numero: "+ JSON.stringify(info.valid);
-   code.textContent ="Code del pais:"+ JSON.stringify(info.country.code);
-   continente.textContent ="Continente donde esta Numero: "+ JSON.stringify(info.country.name);
-   prefix.textContent =" Numero Prefix De Pais:"+ JSON.stringify(info.country.prefix);
-   lugar.textContent ="Ubicacion del numero:"+ JSON.stringify(info.location);
-   ciduda.textContent ="Provedor del numero:"+ JSON.stringify(info.carrier);
+   code.innerHTML ='<i class="fa-solid fa-city"></i> Code del pais:'+ JSON.stringify(info.country.code);
+   continente.innerHTML ='<i class="fa-solid fa-earth-americas"></i> Continente donde esta Numero: '+ JSON.stringify(info.country.name);
+   prefix.innerHTML ='<i class="fa-solid fa-hashtag"></i> Numero Prefix De Pais:'+ JSON.stringify(info.country.prefix);
+   lugar.innerHTML ='<i class="fa-solid fa-location-dot"></i> Ubicacion del numero:'+ JSON.stringify(info.location);
+   ciduda.innerHTML ='<i class="fa-solid fa-globe"></i> Provedor del numero:'+ JSON.stringify(info.carrier);
 
 };
 
